@@ -27,6 +27,7 @@ dependencies:
   - pyside2
   - wrapt
   - numpydoc
+  - requests
   - pip:
     - napari
     # Recent jupyter-server-proxy to load vnc_lite.html instead of /

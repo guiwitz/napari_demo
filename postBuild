@@ -52,3 +52,5 @@ popd
 
 # Napari (dependencies already installed using conda)
 #pip install --no-dependencies napari==0.2.2
+
+python download_data.py

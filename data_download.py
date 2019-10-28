@@ -1,4 +1,5 @@
 import os
+import requests
 
 if not os.path.isfile('Sample/cxcr4aMO2_290112.lsm'):
     os.makedirs('Sample/',exist_ok=True)

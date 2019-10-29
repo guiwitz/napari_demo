@@ -10,7 +10,7 @@ In this repository you can find two examples of the possibilities offered by the
 Both examples can be run via [mybinder](https://mybinder.org/) by clicking the button on top of this Readme. As napari is not integrated into Jupyter, the workaround solution provided [here](https://github.com/manics/jupyter-omeroanalysis-desktop/tree/napari-binder) is used. In both notebooks, you have to click on a link provided at the top of the notebook which opens a new window where napari is visible (within a remote desktop). Mybinder is not meant to process large datasets, so the data used in the 3D image processing example have to be reduced. Just follow the instructions at the data import step.
 
 ### Local installation
-It's really easy to install the necessary pices on your own machine using conda. Copy the following lines into a file typically called environment.yml:
+It's really easy to install the necessary pieces on your own machine using conda. Copy the following lines into a file typically called environment.yml:
 
 ```yml
 name: python3d
@@ -35,6 +35,16 @@ dependencies:
 And create the conda environment by calling:
 ```bash
 conda env create -f environment.yml
+```
+
+When you want to use the environment, just type:
+```
+conda activate python3d
+```
+
+and then start Jupyter to open the notebooks:
+```
+jupyter notebook
 ```
 
 ## Example 1: [Ilastik-like application](napari_ilastik.ipynb)

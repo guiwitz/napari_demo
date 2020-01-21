@@ -1,6 +1,6 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/guiwitz/napari_demo/master)
 
-# Repository for tests of napari
+# Repository for napari demos
 
 In this repository you can find two examples of the possibilities offered by the visualisation tool [napari](https://github.com/napari/napari). Both examples are really meant to be demos and not full fledged tools or scientific studies.
 

@@ -9,3 +9,5 @@ xfce4-session
 xfce4-settings
 xorg
 xubuntu-icon-theme 
+libqt5x11extras5-dev
+libxcb-xinerama0
